@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.version          = '3.9.2'
   spec.swift_versions	= ['5.0']
   spec.summary          = 'This Jumio SDK includes frameworks for Netverify, Fastfill, Authentication, Document Verification and BAM Checkout.'
-  spec. documentation_url		= 'https://support.jumio.com/'
+  spec.documentation_url		= 'https://support.jumio.com/'
   spec.homepage         = 'http://www.jumio.com'
   spec.authors          = { 'Jumio Corporation' => 'support@jumio.com' }
   spec.source           = { :http => 'https://mobile-sdk.jumio.com/com/jumio/ios/jumio-mobile-sdk/3.9.2/ios-jumio-mobile-sdk-3.9.2.zip' }
