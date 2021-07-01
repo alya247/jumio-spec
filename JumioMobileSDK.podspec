@@ -69,7 +69,7 @@ Pod::Spec.new do |spec|
                              'JumioMobileSDK-3.9.2/Netverify.framework',
                              'JumioMobileSDK-3.9.2/JumioIProov.framework'
     sp.preserve_path = 'JumioMobileSDK-3.9.2/Localizations/*.lproj/Localizable-*.strings'
-    sp.dependency 'iProov', '~> v9.0.0-beta1'
+    sp.dependency 'iProov', 'v9.0.0-beta1'
   end
 
   spec.subspec 'DocumentVerification' do |sp|
